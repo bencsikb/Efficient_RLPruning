@@ -1,0 +1,15 @@
+# train and val datasets (image directory or *.txt file with image paths)
+
+train_img:  /home/blanka/Datasets/KITTI/images/training  # 118k images
+val_img: /home/blanka/Datasets/KITTI/images/validation_small # 5k images
+
+train_label: /home/blanka/Datasets/KITTI/labels
+val_label: /home/blanka/Datasets/KITTI/labels
+
+test: /home/blanka/Datasets/KITTI/images/validation # 0.7k
+
+# number of classes
+nc: 9
+
+# class names
+names: ['Car', 'Van', 'Truck', 'Pedestrian', 'Person_sitting', 'Cyclist', 'Tram', 'Misc', 'DontCare']

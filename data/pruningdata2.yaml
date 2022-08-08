@@ -1,0 +1,5 @@
+train_pruningdata: /home/blanka/Datasets/PruningDataset/data4
+val_pruningdata:  /home/blanka/Datasets/PruningDataset/data3_val
+
+train_label: /home/blanka/Datasets/PruningDataset/label4
+val_label:  /home/blanka/Datasets/PruningDataset/label3_val
